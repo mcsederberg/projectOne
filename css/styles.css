@@ -1,0 +1,189 @@
+html, p, body{
+    background: white;
+}
+body{
+    padding-bottom: 25px;
+}
+h1{
+    background: #83BCFF;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-top: 25px;
+    color: #E1EFF6;
+}
+.navbar{
+    width: 100%;
+    background-color: #83BCFF !important;
+    color: #E1EFF6 !important;
+}
+.nav-link{
+    color: #E1EFF6 !important;
+}
+.nav-link:hover{
+    background: #97D2FB !important;
+}
+.portfolio {
+    display: grid;
+    grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.active{
+    font-weight: bold;
+}
+
+.image img {
+    width: 100%;
+}
+
+.wallWrapper { /* Masonry container */
+    column-count: 4;
+    column-gap: 1em;
+  }
+  
+.item { /* Masonry bricks or child elements */
+    background-color: #eee;
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+}
+
+.homeText{
+    padding: 10px;
+    text-align: center;
+    font-size: x-large;
+    line-height: 75px;
+}
+.welcomeText{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.activityTitle{
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+}
+.activityText{
+    text-align: center;
+}
+.activityList{
+    margin:50px;
+    font-size: larger;
+}
+.activity-link{
+    color:blue;
+    text-decoration: none;
+}
+.activity-link:hover{
+    color: lightblue;
+    text-decoration: none;
+}
+
+.colorTitles{
+    height: 10px;
+}
+.colors{
+    height: 100px;
+}
+.colorRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.colorColumn {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    text-align: center;
+    background: lightgray;
+}
+
+
+.redCell{
+    background: red;
+}
+.redCellTitle{
+    color: red;
+}
+
+.blueCell{
+    background: blue;
+}
+.blueCellTitle{
+    color: blue;
+}
+
+.yellowCell{
+    background: yellow;
+}
+.yellowCellTitle{
+    color: yellow;
+}
+
+.orangeCell{
+    background: orange;
+}
+.orangeCellTitle{
+    color: orange;
+}
+
+.greenCell{
+    background: green;
+}
+.greenCellTitle{
+    color: green;
+}
+
+.purpleCell{
+    background: purple;
+}
+.purpleCellTitle{
+    color: purple;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    background: #83BCFF;
+    width: 100%;
+    padding: 10px;
+    color: gray;
+}
+.footerURL{
+    text-decoration: none;
+    color: gray;
+}
+
+.footerURL:hover{
+    text-decoration: none;
+    color: gray;
+}
+.myPhoto{
+    width: 300px;
+    /* display: inline-block; */ 
+    margin: 5px;
+}
+.photoWrapper{
+    display: flex; 
+   justify-content: center;
+}
+
+.aboutText{
+    margin-top: 15px;
+    padding: 10px;
+    /* display: inline-block; */
+    text-align: center;
+}
+
+.testimonialWrapper{
+    padding: 10px;
+}
+
+.testimonialHeader{
+    font-weight: bold;
+    font-size: larger;
+}
